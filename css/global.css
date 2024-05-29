@@ -1,0 +1,28 @@
+body {
+  padding: 8px;
+  margin: unset;
+  background: #000000;
+  font-family: Arial, sans-serif;
+  color: #FFFFFF;
+}
+
+button {
+  background: unset;
+  border: unset;
+}
+
+.section {
+  border-radius: 8px;
+  background: #242424;
+}
+
+.button {
+  font-size: 13.78px;
+  font-weight: 700;
+  line-height: 20px;
+  color: #000000;
+  padding: 6px 16px;
+  background: #FFFFFF;
+  border-radius: 100px;
+  border: unset;
+}
