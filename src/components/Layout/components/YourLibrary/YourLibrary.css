@@ -1,0 +1,41 @@
+.my-library-section__header {
+  padding: 8px 16px;
+  display: flex;
+  align-items: center;
+}
+
+.my-library-section__header-left {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.my-library-section__icon {
+  height: 24px;
+  width: 24px;
+}
+
+.my-library-section__title {
+  font-size: 15.25px;
+  font-weight: 700;
+  line-height: 22px;
+  color: #A7A7A7;
+}
+
+.my-library-section__plus-button {
+  height: 32px;
+  width: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+}
+
+.my-library-section__plus-icon {
+  height: 16px;
+  width: 16px;
+}
+
+.my-library-section__body {
+  padding: 8px;
+}
