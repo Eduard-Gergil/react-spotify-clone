@@ -1,0 +1,9 @@
+.section {
+  background: #121212;
+  border-radius: 8px;
+}
+
+.aside {
+  width: 100%;
+  max-width: 420px;
+}

@@ -1,5 +1,7 @@
 const path = require("path");
+const webpack = require('webpack');
 const TsconfigPathsPlugin = require("tsconfig-paths-webpack-plugin"); // Разрешает пути, указанные в tsconfig.json
+const WebpackShellPluginNext = require('webpack-shell-plugin-next');
 
 module.exports = {
   entry: "./src/index.tsx",
@@ -38,6 +40,23 @@ module.exports = {
       },
     ],
   },
+  // plugins: [
+  //   new webpack.ProgressPlugin(), // Показывает прогресс сборки в консоли
+  //   {
+  //     apply: (compiler) => {
+  //       compiler.hooks.done.tap('DonePlugin', (stats) => {
+  //         console.log("Let's do some magic");
+  //       });
+  //     }
+  //   },
+  //   new WebpackShellPluginNext({
+  //     onBuildEnd: {
+  //       scripts: ['echo "Let\'s do some magic"'],
+  //       blocking: true,
+  //       parallel: false,
+  //     },
+  //   }),
+  // ],
   devServer: {
     static: {
       directory: path.join(__dirname, "dist"),

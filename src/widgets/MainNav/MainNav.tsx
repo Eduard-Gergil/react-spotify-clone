@@ -1,5 +1,5 @@
 import "./MainNav.css";
-import logo from "@assets/icons/logo.svg";
+import logo from "@shared/assets/icons/logo.svg";
 import home from "./assets/icons/home.svg";
 import homeActive from './assets/icons/home--active.svg'
 import search from './assets/icons/search.svg';

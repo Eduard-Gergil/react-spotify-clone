@@ -1,7 +1,8 @@
-import "./YourLibrary.css";
-import plus from "@assets/icons/plus.svg";
-import library from "./assets/icons/library.svg";
-import CallToAction from "./components/CallToAction/CallToAction";
+import "../styles/styles.css";
+import plus from "@shared/assets/icons/plus.svg";
+import library from "../assets/icons/library.svg";
+import CallToCreateFirstPlaylist from "./CallToCreateFirstPlaylist";
+import CallToFollowSomePodcasts from "./CallToFollowSomePodcasts";
 
 const YourLibrary = () => {
   return (
@@ -18,7 +19,8 @@ const YourLibrary = () => {
       </div>
 
       <div className="my-library-section__body">
-        <CallToAction />
+        <CallToCreateFirstPlaylist />
+        <CallToFollowSomePodcasts />
       </div>
     </section>
   );
